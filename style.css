@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.container01 {
+    width: 100%;
+    display: flex; /* Utiliza flexbox para organizar as imagens inline */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 15px;
+}
+.image-left {
+    float: left;
+    width: 350px;
+    padding-right: 10px;
+}
+
+.image-right {
+    float: right;
+    width: 350px;
+    padding-left: 5px;
+    text-align: right; /* Alinha o texto à direita, se necessário */
+}
+
+.section1, .section2 {
+    width: calc(100% - 10px); /* Ajusta a largura para considerar a margem */
+    margin: 5px; /* Adiciona margem ao redor das seções */
+    max-width: 1910px;
+    overflow: hidden; /* Garante que o conteúdo flutuante não afete o layout */
+}
+
+.section1 {
+    margin-top: 20px; /* Adiciona espaço no topo da seção */
+}
+
+
+.text-left {
+    text-align: justify; /* Justifica o texto */
+    margin: 0; /* Remove margens extras */
+    padding: 0 10px; /* Adiciona padding interno para espaçamento */
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+.section2 {
+    margin-top: 20px; /* Adiciona espaço no topo da seção */
+    
+}
+
+.text-right {
+ 
+    text-align: justify; /* Justifica o texto */
+    margin: 0; /* Remove margens extras */
+    padding: 0 10px; /* Adiciona padding interno para espaçamento */
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+.image-inline {
+    width: 350px;
+    height: auto; /* Mantém a proporção das imagens */
+    padding: 10px;
+}
+
+.redesocial{
+    align-items:center;
+    height: 50px;
+    width: 50px;
+}
+
+.rede{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
